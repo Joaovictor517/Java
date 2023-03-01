@@ -5,14 +5,13 @@ public class testaCondicional2 {
 
 		int idade = 20;
 		int quantidadePessoas = 3;
-		boolean acompanhado = quantidadePessoas >=2;
+		boolean acompanhado = quantidadePessoas >= 2;
 		
-		System.out.println("valor de acompanhado = " + acompanhado);
-
+		System.out.println("Valor de acompanhado = " + acompanhado);
 		if (idade >= 18 && acompanhado) {
-			System.out.println("Seja bem vindo");
+			System.out.println("Seja bem vindo!!");
 		} else {
-				System.out.println("infelizmente voce nao pode entrar");
+			System.out.println("infelizmente voce nao pode entrar.");
 		}
 	}
 }
