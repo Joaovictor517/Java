@@ -9,6 +9,7 @@ public class Algoritmo02 {
 			String NomeAluno;
 		    double nota1, nota2, nota3, nota4;
 			int idade;
+			int teste01;
 
 			System.out.println("Digite seu nome.");
 			nota1 = sc.next();
