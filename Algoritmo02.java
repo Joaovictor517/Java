@@ -22,10 +22,10 @@ public class Algoritmo02 {
 			System.out.println("Digite sua nota da quarta avalição."); 
 			nota4 = sc.nextDouble();
 			
-			double MediaGeral = (nota1*2) + (nota2*3) + (nota3*2) + (nota4*3);
-
+			double MediaGeral = (nota1*2 + nota2*3 + nota3*2 + nota4*3) / (2+3+2+3);
+            
 			//verificando média
-			if (MediaGeral >= 50) {
+			if (MediaGeral >= 5) {
 				System.out.println("Parabéns " + NomeAluno + ", você está aprovado!! e sua média foi de: " + MediaGeral);
 			} else {
 				System.out.println("Que pena " + NomeAluno + ", você está reprovado!! sua média foi de: " + MediaGeral);
